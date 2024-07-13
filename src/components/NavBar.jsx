@@ -7,7 +7,6 @@ function NavBar() {
 
     const authentication = useContext(AuthContext);
     const {logOut} = useContext(AuthContext);
-    console.log(authentication.isAuthenticated);
 
     const navigate = useNavigate();
 
